@@ -29,8 +29,9 @@ h2 {
 }
 
 .allkeys {
+    display: flex;
     margin-top: 8vh;
-    text-align: center;
+    justify-content: center;
 }
 
 .natural {
@@ -39,16 +40,21 @@ h2 {
     width: 4vw;
     height: 40vh;
     background-color: white;
+    border: 4px solid black;
+    border-right: 0px;
+    border-top: 0px;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .sharp {
     display: inline-block;
+    margin: 0 auto;
     vertical-align: top;
     width: 2vw;
-    height: 35vh;
+    height: 33vh;
+    margin-left: 0px;
+    margin-right: 0px;
     background-color: black;
-}
-
-#C4 {
-
 }
