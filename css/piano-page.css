@@ -28,6 +28,10 @@ h2 {
     font-family: 'Rajdhani';
 }
 
+.minor-title {
+    font-size: 8vh;
+}
+
 .allkeys {
     display: flex;
     margin-top: 8vh;
@@ -57,4 +61,30 @@ h2 {
     margin-left: 0px;
     margin-right: 0px;
     background-color: black;
+}
+
+.oscillator-table {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    width: 80vw;
+    height: 30vh;
+}
+
+.oscillator-choice {
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vh;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30vh;
+    border-radius: 3vh;
+    color: white;
+    background-color: #2e0519;
+    width: 15vw;
+    height: 30vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }

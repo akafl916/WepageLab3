@@ -1,10 +1,13 @@
-let osc = "fatsawtooth"
+let osc = ["fatsawtooth", "sawtooth", "sine", "square", "triangle"];
+let oscnum = 0;
+
+
 
 const synth = new Tone.PolySynth(
   {},
   {
     oscillator: {
-      type: osc
+      type: osc[oscnum]
     }
   }
 )
@@ -13,7 +16,7 @@ const varsynth = new Tone.PolySynth(
   {},
   {
     oscillator: {
-      type: osc
+      type: osc[oscnum]
     }
   }
 )
