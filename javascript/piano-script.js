@@ -1,7 +1,10 @@
 let osc = ["fatsawtooth", "sawtooth", "sine", "square", "triangle"];
-let oscnum = 0;
+oscnum = sessionStorage.getItem('oscnum');
 
-
+if(!oscnum) {
+  alert("huh")
+  oscnum = 0;
+}
 
 const synth = new Tone.PolySynth(
   {},
@@ -21,7 +24,8 @@ const varsynth = new Tone.PolySynth(
   }
 )
 varsynth.connect(Tone.Destination);
-const notelength = "2n";
+
+const notelength = "8n";
 
 let naturals = ["C", "D", "E", "F", "G", "A", "B"]
 let accientals = ["C#", "D#", "F#", "G#", "A#"]

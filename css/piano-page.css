@@ -1,5 +1,5 @@
 a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -29,6 +29,7 @@ h2 {
 }
 
 .minor-title {
+    margin-top: 7vh;
     font-size: 8vh;
 }
 
@@ -52,6 +53,10 @@ h2 {
     margin-right: 0px;
 }
 
+.natural:hover {
+    background-color: #e6dddf;
+}
+
 .sharp {
     display: inline-block;
     margin: 0 auto;
@@ -63,28 +68,6 @@ h2 {
     background-color: black;
 }
 
-.oscillator-table {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 3vh;
-    margin-bottom: 5vh;
-    width: 80vw;
-    height: 30vh;
-}
-
-.oscillator-choice {
-    display: inline-block;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 5vh;
-    vertical-align: middle;
-    text-align: center;
-    line-height: 30vh;
-    border-radius: 3vh;
-    color: white;
-    background-color: #2e0519;
-    width: 15vw;
-    height: 30vh;
-    margin-left: 3vw;
-    margin-right: 3vw;
+.sharp:hover {
+    background-color: #22151b;
 }
